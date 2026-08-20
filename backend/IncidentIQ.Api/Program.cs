@@ -1,20 +1,35 @@
+using Microsoft.EntityFrameworkCore;
+using IncidentIQ.Infrastructure.Data;
+using IncidentIQ.Api.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add OpenAPI services
-builder.Services.AddOpenApi();
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
+builder.Services.AddScoped<DeviceService>();
+
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseNpgsql(
+        builder.Configuration.GetConnectionString("DefaultConnection")));
 
 var app = builder.Build();
 
-// Enable OpenAPI in Development
+using (var scope = app.Services.CreateScope())
+{
+    var db = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+    await DbInitializer.SeedAsync(db);
+}
+
 if (app.Environment.IsDevelopment())
 {
-    app.MapOpenApi();
+    app.UseSwagger();
+    app.UseSwaggerUI();
 }
 
 // app.UseHttpsRedirection();
 
-
-app.MapGet("/", () => Results.Redirect("/openapi/v1.json"));
+app.MapGet("/", () => Results.Redirect("/swagger"));
 
 app.MapGet("/api/health", () =>
 {
@@ -26,7 +41,11 @@ app.MapGet("/api/health", () =>
         environment = app.Environment.EnvironmentName,
         timestamp = DateTime.UtcNow
     });
-})
-.WithName("Health");
+});
+
+app.MapGet("/api/devices", async (DeviceService service) =>
+{
+    return Results.Ok(await service.GetDevicesAsync());
+});
 
 app.Run();
