@@ -23,9 +23,12 @@ export default function DashboardCard({
     >
       <CardContent>
         <Box
-          display="flex"
-          justifyContent="space-between"
-          alignItems="center"
+          component="div"
+          sx={{
+            display: "flex",
+            justifyContent: "space-between",
+            alignItems: "center",
+          }}
         >
           <Typography variant="subtitle1">{title}</Typography>
 
