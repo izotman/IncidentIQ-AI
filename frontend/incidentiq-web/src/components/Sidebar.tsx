@@ -1,54 +1,92 @@
-import { Box, Typography } from "@mui/material";
-import DashboardIcon from "@mui/icons-material/Dashboard";
-import DevicesIcon from "@mui/icons-material/Devices";
-import WarningIcon from "@mui/icons-material/Warning";
-import SmartToyIcon from "@mui/icons-material/SmartToy";
+import type { Page } from "../layouts/MainLayout";
+import {
+  Activity,
+  Brain,
+  Database,
+  FileWarning,
+  HeartPulse,
+  Network,
+  Settings,
+  ShieldCheck,
+  Stethoscope
+} from "lucide-react";
 
-export default function Sidebar() {
+type Props = {
+  page: Page;
+  setPage: (page: Page) => void;
+};
+
+export default function Sidebar({ page, setPage }: Props) {
+  const nav = [
+    ["Dashboard", Activity],
+    ["Medical Devices", Stethoscope],
+    ["Incidents", FileWarning],
+    ["AI Insights", Brain],
+    ["Reports", Database],
+    ["Knowledge Base", ShieldCheck],
+    ["Integrations", Network],
+    ["Settings", Settings]
+  ] as const;
+
   return (
-    <Box
-      component="aside"
-      sx={{
-        width: 240,
-        minHeight: "100vh",
-        background: "#111827",
-        color: "white",
-        p: 2,
-        flexShrink: 0,
-      }}
-    >
-      <Typography
-        variant="h6"
-        sx={{
-          fontWeight: "bold",
-          mb: 4,
-          px: 1,
-        }}
-      >
-        IncidentIQ AI
-      </Typography>
+    <aside className="sidebar">
+      <button className="sidebar-brand" type="button" onClick={() => setPage("Dashboard")}>
+        <span className="brand-mark"><HeartPulse size={18} /></span>
+        <span>
+          <strong>IncidentIQ <em>AI</em></strong>
+          <small>Healthcare IT Incident Management</small>
+        </span>
+      </button>
 
-      <Box sx={{ display: "flex", flexDirection: "column", gap: 2 }}>
-        <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
-          <DashboardIcon />
-          <Typography>Dashboard</Typography>
-        </Box>
+      <div className="facility-selector">
+        <HeartPulse size={17} />
+        <div>
+          <strong>Planned Parenthood</strong>
+          <span>Northern California</span>
+        </div>
+      </div>
 
-        <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
-          <DevicesIcon />
-          <Typography>Medical Devices</Typography>
-        </Box>
+      <nav className="sidebar-nav">
+        <div className="sidebar-section-title">OPERATIONS</div>
+        {nav.slice(0, 5).map(([label, Icon]) => (
+          <button
+            key={label}
+            type="button"
+            className={`nav-item ${page === label ? "active" : ""}`}
+            onClick={() => setPage(label as Page)}
+          >
+            <Icon size={16} />
+            <span>{label}</span>
+            {label === "Incidents" && <b className="nav-badge">3</b>}
+          </button>
+        ))}
 
-        <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
-          <WarningIcon />
-          <Typography>Incidents</Typography>
-        </Box>
+        <div className="sidebar-section-title system-heading">SYSTEMS</div>
+        {nav.slice(5).map(([label, Icon]) => (
+          <button
+            key={label}
+            type="button"
+            className={`nav-item ${page === label ? "active" : ""}`}
+            onClick={() => setPage(label as Page)}
+          >
+            <Icon size={16} />
+            <span>{label}</span>
+          </button>
+        ))}
+      </nav>
 
-        <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
-          <SmartToyIcon />
-          <Typography>AI Assistant</Typography>
-        </Box>
-      </Box>
-    </Box>
+      <div className="system-status">
+        <div className="system-title">SYSTEM STATUS</div>
+        {["HL7 Interface", "PACS Connection", "Epic EHR", "FHIR API"].map((name) => (
+          <div key={name}>
+            <span className="status-dot green" />
+            <span>{name}</span>
+            <b>Operational</b>
+          </div>
+        ))}
+      </div>
+
+      <div className="sidebar-footer">© 2026 IncidentIQ AI</div>
+    </aside>
   );
 }

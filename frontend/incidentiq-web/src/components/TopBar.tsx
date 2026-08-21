@@ -1,32 +1,27 @@
-import { AppBar, Toolbar, Typography, Box } from "@mui/material";
+import { Bell, HeartPulse } from "lucide-react";
 
 export default function TopBar() {
   return (
-    <AppBar
-      position="static"
-      elevation={0}
-      sx={{
-        background: "#0F172A",
-        borderBottom: "1px solid #334155",
-      }}
-    >
-      <Toolbar>
-        <Typography
-          variant="h6"
-          sx={{
-            fontWeight: "bold",
-            flexGrow: 1,
-          }}
-        >
-          Healthcare Operations Center
-        </Typography>
+    <header className="topbar">
+      <div className="topbar-title">
+        <HeartPulse size={19} />
+        <div>
+          <strong>Healthcare Operations Center</strong>
+          <small>Simulation Environment</small>
+        </div>
+      </div>
 
-        <Box>
-          <Typography variant="body2" sx={{ color: "#94A3B8" }}>
-            Simulation Environment
-          </Typography>
-        </Box>
-      </Toolbar>
-    </AppBar>
+      <div className="topbar-user">
+        <div className="notification">
+          <Bell size={18} />
+          <b>12</b>
+        </div>
+        <div className="user-avatar">MZ</div>
+        <div className="user-info">
+          <strong>Mark Zotman</strong>
+          <small>Systems Engineer</small>
+        </div>
+      </div>
+    </header>
   );
 }
