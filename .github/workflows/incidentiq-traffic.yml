@@ -1,0 +1,39 @@
+name: IncidentIQ-AI Traffic Report
+
+on:
+  schedule:
+    - cron: '15 18 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  traffic-report:
+    runs-on: ubuntu-latest
+    env:
+      REPO: ${{ github.repository }}
+      TRAFFIC_TOKEN: ${{ secrets.TRAFFIC_TOKEN }}
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Validate traffic token
+        run: |
+          if [ -z "$TRAFFIC_TOKEN" ]; then
+            echo "TRAFFIC_TOKEN secret is not configured."
+            echo "Add a GitHub token with Administration: Read access to this repository."
+            exit 1
+          fi
+
+      - name: Collect GitHub traffic data
+        run: python3 scripts/github_traffic_report.py
+
+      - name: Commit traffic report
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/traffic-report.md docs/data/traffic-history.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Update IncidentIQ-AI traffic report"
+          git push
