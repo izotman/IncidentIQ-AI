@@ -80,7 +80,7 @@ def change_text(current, previous):
 def main():
     views = get_json(f"{BASE}/views")
     clones = get_json(f"{BASE}/clones")
-    referrers = get_json(f"{BASE}/referrers")
+    referrers = get_json(f"{BASE}/popular/referrers")
     paths = get_json(f"{BASE}/popular/paths")
 
     now = datetime.now(timezone.utc)
