@@ -1,1 +1,199 @@
-[]
+[
+  {
+    "date": "2026-08-23",
+    "captured_at_utc": "2026-08-23T01:42:55.373922+00:00",
+    "views": 23,
+    "unique_views": 1,
+    "clones": 15,
+    "unique_cloners": 9,
+    "daily_views": [
+      {
+        "timestamp": "2026-08-08T00:00:00Z",
+        "count": 0,
+        "uniques": 0
+      },
+      {
+        "timestamp": "2026-08-09T00:00:00Z",
+        "count": 0,
+        "uniques": 0
+      },
+      {
+        "timestamp": "2026-08-10T00:00:00Z",
+        "count": 0,
+        "uniques": 0
+      },
+      {
+        "timestamp": "2026-08-11T00:00:00Z",
+        "count": 0,
+        "uniques": 0
+      },
+      {
+        "timestamp": "2026-08-12T00:00:00Z",
+        "count": 0,
+        "uniques": 0
+      },
+      {
+        "timestamp": "2026-08-13T00:00:00Z",
+        "count": 0,
+        "uniques": 0
+      },
+      {
+        "timestamp": "2026-08-14T00:00:00Z",
+        "count": 0,
+        "uniques": 0
+      },
+      {
+        "timestamp": "2026-08-15T00:00:00Z",
+        "count": 0,
+        "uniques": 0
+      },
+      {
+        "timestamp": "2026-08-16T00:00:00Z",
+        "count": 0,
+        "uniques": 0
+      },
+      {
+        "timestamp": "2026-08-17T00:00:00Z",
+        "count": 0,
+        "uniques": 0
+      },
+      {
+        "timestamp": "2026-08-18T00:00:00Z",
+        "count": 0,
+        "uniques": 0
+      },
+      {
+        "timestamp": "2026-08-19T00:00:00Z",
+        "count": 0,
+        "uniques": 0
+      },
+      {
+        "timestamp": "2026-08-20T00:00:00Z",
+        "count": 0,
+        "uniques": 0
+      },
+      {
+        "timestamp": "2026-08-21T00:00:00Z",
+        "count": 23,
+        "uniques": 1
+      }
+    ],
+    "daily_clones": [
+      {
+        "timestamp": "2026-08-08T00:00:00Z",
+        "count": 0,
+        "uniques": 0
+      },
+      {
+        "timestamp": "2026-08-09T00:00:00Z",
+        "count": 0,
+        "uniques": 0
+      },
+      {
+        "timestamp": "2026-08-10T00:00:00Z",
+        "count": 0,
+        "uniques": 0
+      },
+      {
+        "timestamp": "2026-08-11T00:00:00Z",
+        "count": 0,
+        "uniques": 0
+      },
+      {
+        "timestamp": "2026-08-12T00:00:00Z",
+        "count": 0,
+        "uniques": 0
+      },
+      {
+        "timestamp": "2026-08-13T00:00:00Z",
+        "count": 0,
+        "uniques": 0
+      },
+      {
+        "timestamp": "2026-08-14T00:00:00Z",
+        "count": 0,
+        "uniques": 0
+      },
+      {
+        "timestamp": "2026-08-15T00:00:00Z",
+        "count": 0,
+        "uniques": 0
+      },
+      {
+        "timestamp": "2026-08-16T00:00:00Z",
+        "count": 0,
+        "uniques": 0
+      },
+      {
+        "timestamp": "2026-08-17T00:00:00Z",
+        "count": 0,
+        "uniques": 0
+      },
+      {
+        "timestamp": "2026-08-18T00:00:00Z",
+        "count": 0,
+        "uniques": 0
+      },
+      {
+        "timestamp": "2026-08-19T00:00:00Z",
+        "count": 0,
+        "uniques": 0
+      },
+      {
+        "timestamp": "2026-08-20T00:00:00Z",
+        "count": 0,
+        "uniques": 0
+      },
+      {
+        "timestamp": "2026-08-21T00:00:00Z",
+        "count": 15,
+        "uniques": 9
+      }
+    ],
+    "referrers": [],
+    "popular_paths": [
+      {
+        "path": "/izotman/IncidentIQ-AI",
+        "title": "Overview",
+        "count": 6,
+        "uniques": 1
+      },
+      {
+        "path": "/izotman/IncidentIQ-AI/actions/runs/32432882581",
+        "title": "/actions/runs/32432882581",
+        "count": 4,
+        "uniques": 1
+      },
+      {
+        "path": "/izotman/IncidentIQ-AI/actions",
+        "title": "/actions",
+        "count": 2,
+        "uniques": 1
+      },
+      {
+        "path": "/izotman/IncidentIQ-AI/actions/workflows/deploy-demo.yml",
+        "title": "/actions/workflows/deploy-demo.yml",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/izotman/IncidentIQ-AI/commit/6d43aeb00f1e776724508604a7bf091e42c28a23",
+        "title": "/commit/6d43aeb00f1e776724508604a7bf091e42c28a23",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/izotman/IncidentIQ-AI/projects",
+        "title": "/projects",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/izotman/IncidentIQ-AI/tree/refs/heads/main",
+        "title": "/tree/refs/heads/main",
+        "count": 1,
+        "uniques": 1
+      }
+    ]
+  }
+]
