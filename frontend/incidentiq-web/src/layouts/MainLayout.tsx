@@ -50,7 +50,7 @@ export default function MainLayout() {
     <div className="app-shell">
       <Sidebar page={page} setPage={setPage} />
       <div className="main-shell">
-        <TopBar />
+        <TopBar setPage={setPage} />
         <main className="main-content">
           {page === "Dashboard" && <Dashboard setPage={setPage} />}
           {page === "Incidents" && <Incidents />}
