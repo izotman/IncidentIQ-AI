@@ -1,7 +1,7 @@
 # IncidentIQ-AI Traffic Report
 
 **Repository:** `izotman/IncidentIQ-AI`  
-**Generated (UTC):** 2026-08-23 18:47:18  
+**Generated (UTC):** 2026-08-24 18:58:16  
 **Source:** GitHub Repository Traffic API
 
 > GitHub's traffic API provides a rolling 14-day window. This workflow stores daily snapshots so the project maintains a longer historical record.
@@ -10,34 +10,38 @@
 
 | Metric | Last 7 days | Prior 7 days | Change |
 |---|---:|---:|---:|
-| Page views | 23 | 0 | — |
-| Unique visitors | 1 | 0 | — |
-| Clones | 16 | 0 | — |
-| Unique cloners | 10 | 0 | — |
+| Page views | 76 | 0 | — |
+| Unique visitors | 3 | 0 | — |
+| Clones | 58 | 0 | — |
+| Unique cloners | 35 | 0 | — |
 
 ## Daily Activity
 
 | Date | Views | Unique | Clones | Unique cloners |
 |---|---:|---:|---:|---:|
 | 2026-08-23 | 23 | 1 | 16 | 10 |
+| 2026-08-24 | 53 | 2 | 42 | 25 |
 
 ## Top Referrers
 
 | Referrer | Views | Unique |
 |---|---:|---:|
-| No referrer data returned | — | — |
+| github.com | 6 | 1 |
 
 ## Popular Repository Paths
 
 | Path | Views | Unique |
 |---|---:|---:|
-| `/izotman/IncidentIQ-AI` | 6 | 1 |
+| `/izotman/IncidentIQ-AI` | 10 | 1 |
+| `/izotman/IncidentIQ-AI/actions` | 8 | 1 |
 | `/izotman/IncidentIQ-AI/actions/runs/32432882581` | 4 | 1 |
-| `/izotman/IncidentIQ-AI/actions` | 2 | 1 |
-| `/izotman/IncidentIQ-AI/actions/workflows/deploy-demo.yml` | 1 | 1 |
-| `/izotman/IncidentIQ-AI/commit/6d43aeb00f1e776724508604a7bf091e42c28a23` | 1 | 1 |
-| `/izotman/IncidentIQ-AI/projects` | 1 | 1 |
-| `/izotman/IncidentIQ-AI/tree/refs/heads/main` | 1 | 1 |
+| `/izotman/IncidentIQ-AI/actions/runs/32610273539` | 4 | 1 |
+| `/izotman/IncidentIQ-AI/actions/runs/32610273539/job/97122062357` | 3 | 1 |
+| `/izotman/IncidentIQ-AI/tree/refs/heads/main` | 3 | 1 |
+| `/izotman/IncidentIQ-AI/actions/workflows/incidentiq-traffic.yml` | 2 | 1 |
+| `/izotman/IncidentIQ-AI/actions/runs/32609558364` | 1 | 1 |
+| `/izotman/IncidentIQ-AI/actions/runs/32610273539/workflow` | 1 | 1 |
+| `/izotman/IncidentIQ-AI/actions/runs/32611027769` | 1 | 1 |
 
 ## Notes
 
