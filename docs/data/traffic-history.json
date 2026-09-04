@@ -2405,5 +2405,226 @@
         "uniques": 1
       }
     ]
+  },
+  {
+    "date": "2026-09-04",
+    "captured_at_utc": "2026-09-04T20:44:20.413204+00:00",
+    "views": 54,
+    "unique_views": 3,
+    "clones": 100,
+    "unique_cloners": 61,
+    "daily_views": [
+      {
+        "timestamp": "2026-08-21T00:00:00Z",
+        "count": 23,
+        "uniques": 1
+      },
+      {
+        "timestamp": "2026-08-22T00:00:00Z",
+        "count": 0,
+        "uniques": 0
+      },
+      {
+        "timestamp": "2026-08-23T00:00:00Z",
+        "count": 30,
+        "uniques": 1
+      },
+      {
+        "timestamp": "2026-08-24T00:00:00Z",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "timestamp": "2026-08-25T00:00:00Z",
+        "count": 0,
+        "uniques": 0
+      },
+      {
+        "timestamp": "2026-08-26T00:00:00Z",
+        "count": 0,
+        "uniques": 0
+      },
+      {
+        "timestamp": "2026-08-27T00:00:00Z",
+        "count": 0,
+        "uniques": 0
+      },
+      {
+        "timestamp": "2026-08-28T00:00:00Z",
+        "count": 0,
+        "uniques": 0
+      },
+      {
+        "timestamp": "2026-08-29T00:00:00Z",
+        "count": 0,
+        "uniques": 0
+      },
+      {
+        "timestamp": "2026-08-30T00:00:00Z",
+        "count": 0,
+        "uniques": 0
+      },
+      {
+        "timestamp": "2026-08-31T00:00:00Z",
+        "count": 0,
+        "uniques": 0
+      },
+      {
+        "timestamp": "2026-09-01T00:00:00Z",
+        "count": 0,
+        "uniques": 0
+      },
+      {
+        "timestamp": "2026-09-02T00:00:00Z",
+        "count": 0,
+        "uniques": 0
+      },
+      {
+        "timestamp": "2026-09-03T00:00:00Z",
+        "count": 0,
+        "uniques": 0
+      }
+    ],
+    "daily_clones": [
+      {
+        "timestamp": "2026-08-21T00:00:00Z",
+        "count": 15,
+        "uniques": 9
+      },
+      {
+        "timestamp": "2026-08-22T00:00:00Z",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "timestamp": "2026-08-23T00:00:00Z",
+        "count": 26,
+        "uniques": 15
+      },
+      {
+        "timestamp": "2026-08-24T00:00:00Z",
+        "count": 3,
+        "uniques": 2
+      },
+      {
+        "timestamp": "2026-08-25T00:00:00Z",
+        "count": 8,
+        "uniques": 5
+      },
+      {
+        "timestamp": "2026-08-26T00:00:00Z",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "timestamp": "2026-08-27T00:00:00Z",
+        "count": 0,
+        "uniques": 0
+      },
+      {
+        "timestamp": "2026-08-28T00:00:00Z",
+        "count": 4,
+        "uniques": 4
+      },
+      {
+        "timestamp": "2026-08-29T00:00:00Z",
+        "count": 12,
+        "uniques": 8
+      },
+      {
+        "timestamp": "2026-08-30T00:00:00Z",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "timestamp": "2026-08-31T00:00:00Z",
+        "count": 4,
+        "uniques": 2
+      },
+      {
+        "timestamp": "2026-09-01T00:00:00Z",
+        "count": 10,
+        "uniques": 5
+      },
+      {
+        "timestamp": "2026-09-02T00:00:00Z",
+        "count": 10,
+        "uniques": 5
+      },
+      {
+        "timestamp": "2026-09-03T00:00:00Z",
+        "count": 4,
+        "uniques": 2
+      }
+    ],
+    "referrers": [
+      {
+        "referrer": "github.com",
+        "count": 6,
+        "uniques": 1
+      }
+    ],
+    "popular_paths": [
+      {
+        "path": "/izotman/IncidentIQ-AI",
+        "title": "Overview",
+        "count": 10,
+        "uniques": 1
+      },
+      {
+        "path": "/izotman/IncidentIQ-AI/actions",
+        "title": "/actions",
+        "count": 9,
+        "uniques": 2
+      },
+      {
+        "path": "/izotman/IncidentIQ-AI/actions/runs/32432882581",
+        "title": "/actions/runs/32432882581",
+        "count": 4,
+        "uniques": 1
+      },
+      {
+        "path": "/izotman/IncidentIQ-AI/actions/runs/32610273539",
+        "title": "/actions/runs/32610273539",
+        "count": 4,
+        "uniques": 1
+      },
+      {
+        "path": "/izotman/IncidentIQ-AI/actions/runs/32610273539/job/97122062357",
+        "title": "/actions/runs/32610273539/job/97122062357",
+        "count": 3,
+        "uniques": 1
+      },
+      {
+        "path": "/izotman/IncidentIQ-AI/tree/refs/heads/main",
+        "title": "/tree/refs/heads/main",
+        "count": 3,
+        "uniques": 1
+      },
+      {
+        "path": "/izotman/IncidentIQ-AI/actions/workflows/incidentiq-traffic.yml",
+        "title": "/actions/workflows/incidentiq-traffic.yml",
+        "count": 2,
+        "uniques": 1
+      },
+      {
+        "path": "/izotman/IncidentIQ-AI/actions/runs/32609558364",
+        "title": "/actions/runs/32609558364",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/izotman/IncidentIQ-AI/actions/runs/32610273539/workflow",
+        "title": "/actions/runs/32610273539/workflow",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/izotman/IncidentIQ-AI/actions/runs/32611027769",
+        "title": "/actions/runs/32611027769",
+        "count": 1,
+        "uniques": 1
+      }
+    ]
   }
 ]
