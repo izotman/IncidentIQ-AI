@@ -1,7 +1,7 @@
 # IncidentIQ-AI Traffic Report
 
 **Repository:** `izotman/IncidentIQ-AI`  
-**Generated (UTC):** 2026-09-07 21:29:45  
+**Generated (UTC):** 2026-09-08 21:08:00  
 **Source:** GitHub Repository Traffic API
 
 > GitHub's traffic API provides a rolling 14-day window. This workflow stores daily snapshots so the project maintains a longer historical record.
@@ -10,43 +10,34 @@
 
 | Metric | Last 7 days | Prior 7 days | Change |
 |---|---:|---:|---:|
-| Page views | 309 | 377 | -18.0% |
-| Unique visitors | 18 | 20 | -10.0% |
-| Clones | 667 | 390 | +71.0% |
-| Unique cloners | 409 | 242 | +69.0% |
+| Page views | 255 | 378 | -32.5% |
+| Unique visitors | 15 | 21 | -28.6% |
+| Clones | 693 | 424 | +63.4% |
+| Unique cloners | 420 | 266 | +57.9% |
 
 ## Daily Activity
 
 | Date | Views | Unique | Clones | Unique cloners |
 |---|---:|---:|---:|---:|
-| 2026-09-01 | 54 | 3 | 76 | 49 |
 | 2026-09-02 | 54 | 3 | 86 | 54 |
 | 2026-09-03 | 54 | 3 | 96 | 59 |
 | 2026-09-04 | 54 | 3 | 100 | 61 |
 | 2026-09-05 | 31 | 2 | 91 | 56 |
 | 2026-09-06 | 31 | 2 | 109 | 65 |
 | 2026-09-07 | 31 | 2 | 109 | 65 |
+| 2026-09-08 | 0 | 0 | 102 | 60 |
 
 ## Top Referrers
 
 | Referrer | Views | Unique |
 |---|---:|---:|
-| github.com | 6 | 1 |
+| No referrer data returned | — | — |
 
 ## Popular Repository Paths
 
 | Path | Views | Unique |
 |---|---:|---:|
-| `/izotman/IncidentIQ-AI/actions` | 7 | 2 |
-| `/izotman/IncidentIQ-AI` | 4 | 1 |
-| `/izotman/IncidentIQ-AI/actions/runs/32610273539` | 4 | 1 |
-| `/izotman/IncidentIQ-AI/actions/runs/32610273539/job/97122062357` | 3 | 1 |
-| `/izotman/IncidentIQ-AI/actions/workflows/incidentiq-traffic.yml` | 2 | 1 |
-| `/izotman/IncidentIQ-AI/tree/refs/heads/main` | 2 | 1 |
-| `/izotman/IncidentIQ-AI/actions/runs/32609558364` | 1 | 1 |
-| `/izotman/IncidentIQ-AI/actions/runs/32610273539/workflow` | 1 | 1 |
-| `/izotman/IncidentIQ-AI/actions/runs/32611027769` | 1 | 1 |
-| `/izotman/IncidentIQ-AI/blob/main/docs/traffic-report.md` | 1 | 1 |
+| No path data returned | — | — |
 
 ## Notes
 
