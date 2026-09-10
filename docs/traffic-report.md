@@ -1,7 +1,7 @@
 # IncidentIQ-AI Traffic Report
 
 **Repository:** `izotman/IncidentIQ-AI`  
-**Generated (UTC):** 2026-09-09 20:54:45  
+**Generated (UTC):** 2026-09-10 20:50:22  
 **Source:** GitHub Repository Traffic API
 
 > GitHub's traffic API provides a rolling 14-day window. This workflow stores daily snapshots so the project maintains a longer historical record.
@@ -10,22 +10,22 @@
 
 | Metric | Last 7 days | Prior 7 days | Change |
 |---|---:|---:|---:|
-| Page views | 201 | 378 | -46.8% |
-| Unique visitors | 12 | 21 | -42.9% |
-| Clones | 705 | 465 | +51.6% |
-| Unique cloners | 423 | 293 | +44.4% |
+| Page views | 147 | 378 | -61.1% |
+| Unique visitors | 9 | 21 | -57.1% |
+| Clones | 712 | 508 | +40.2% |
+| Unique cloners | 424 | 320 | +32.5% |
 
 ## Daily Activity
 
 | Date | Views | Unique | Clones | Unique cloners |
 |---|---:|---:|---:|---:|
-| 2026-09-03 | 54 | 3 | 96 | 59 |
 | 2026-09-04 | 54 | 3 | 100 | 61 |
 | 2026-09-05 | 31 | 2 | 91 | 56 |
 | 2026-09-06 | 31 | 2 | 109 | 65 |
 | 2026-09-07 | 31 | 2 | 109 | 65 |
 | 2026-09-08 | 0 | 0 | 102 | 60 |
 | 2026-09-09 | 0 | 0 | 98 | 57 |
+| 2026-09-10 | 0 | 0 | 103 | 60 |
 
 ## Top Referrers
 
