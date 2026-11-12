@@ -6494,17 +6494,12 @@
   },
   {
     "date": "2026-11-12",
-    "captured_at_utc": "2026-11-12T00:39:07.588131+00:00",
+    "captured_at_utc": "2026-11-12T23:35:59.849959+00:00",
     "views": 11,
     "unique_views": 2,
-    "clones": 100,
-    "unique_cloners": 57,
+    "clones": 114,
+    "unique_cloners": 63,
     "daily_views": [
-      {
-        "timestamp": "2026-10-28T00:00:00Z",
-        "count": 0,
-        "uniques": 0
-      },
       {
         "timestamp": "2026-10-29T00:00:00Z",
         "count": 11,
@@ -6569,14 +6564,14 @@
         "timestamp": "2026-11-10T00:00:00Z",
         "count": 0,
         "uniques": 0
+      },
+      {
+        "timestamp": "2026-11-11T00:00:00Z",
+        "count": 0,
+        "uniques": 0
       }
     ],
     "daily_clones": [
-      {
-        "timestamp": "2026-10-28T00:00:00Z",
-        "count": 2,
-        "uniques": 2
-      },
       {
         "timestamp": "2026-10-29T00:00:00Z",
         "count": 12,
@@ -6641,6 +6636,11 @@
         "timestamp": "2026-11-10T00:00:00Z",
         "count": 7,
         "uniques": 4
+      },
+      {
+        "timestamp": "2026-11-11T00:00:00Z",
+        "count": 16,
+        "uniques": 8
       }
     ],
     "referrers": [],
